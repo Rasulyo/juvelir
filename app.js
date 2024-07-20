@@ -22,6 +22,40 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+const btn = document.getElementById('catalog');
+const menuIcon = document.getElementById('menu-icon');
+const closeIcon = document.getElementById('close-icon');
+const catalogText = btn.querySelector('.catalog__list-text');
+const catalogMenu = document.getElementById('catalogMenu');
+
+btn.addEventListener('click', () => {
+  if (menuIcon.style.display === 'none') {
+    menuIcon.style.display = 'block';
+    closeIcon.style.display = 'none';
+    btn.style.backgroundColor = '';
+    catalogText.style.color = '';
+    catalogMenu.style.display = 'none';
+  } else {
+    menuIcon.style.display = 'none';
+    closeIcon.style.display = 'block';
+    btn.style.backgroundColor = 'white';
+    catalogText.style.color = 'black';
+    catalogMenu.style.display = 'flex';
+  }
+});
+
+const listItems = document.querySelectorAll('.catalog__lists li');
+
+listItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    // Remove 'active' class from all items
+    listItems.forEach((i) => i.classList.remove('active'));
+    // Add 'active' class to the clicked item
+    item.classList.add('active');
+  });
+});
+
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,

@@ -130,6 +130,67 @@ nav {
     width: auto;
 }
 
+
+
+/* catalog */
+
+.catalog__menu {
+    display: none;
+    width: 100%;
+    gap: 42px;
+    margin-top: 24px;
+}
+
+.catalog__lists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 195px;
+}
+.catalog__lists li {
+    height: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.catalog__content-title {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.catalog__lists li.active {
+    height: 30px;
+    color: black;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.catalog__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.catalog_item {
+    height: 40px;
+    min-width: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* swipe */
+
 .swiper {
     width: 100%;
     height: 760px;
@@ -451,6 +512,90 @@ footer {
 }
 
 /* q */
+
+
+
+.contacts__content {
+    display: flex;
+    width: 100%;
+    height: clamp(300px, 400px, 463px);
+}
+.contact__block {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 405px;
+    text-align: justify;
+    width: 100%;
+    background-color: var(--border-color);
+}
+.contact__block h1 {
+   font-size: 36px;
+   font-weight: 400; 
+}
+.contact__block h3 {
+   font-size: 20px;
+   font-weight: 400; 
+}
+
+.contact__img {
+    width: 100%;
+    height: auto;
+}
+.maps {
+    margin: 64px 0 0;
+}
+.map {
+    display: flex;
+    width: 100%;
+}
+
+.map__title {
+    font-size: 36px;
+    font-weight: 400; 
+    text-align: justify;
+    margin-bottom: 32px;
+}
+
+.map__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 34px 67px;
+    font-size: 16px;
+    background-color: #F5F5F5;
+    color: #000;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* obmen */
+
+.obmen__prefix {
+    list-style: circle;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.obmen__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.obmen__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.obmen__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
 
 @media screen and (max-width: 1024px) {
     .nav__right {

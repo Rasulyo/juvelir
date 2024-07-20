@@ -63,8 +63,9 @@
                     <button class="catalog__logo">
                         <img src="./images/glogo.svg" alt="">
                     </button>
-                    <button class="catalog__list-btn">
-                        <img src="./images/menu.svg" alt="">
+                    <button class="catalog__list-btn" id="catalog">
+                        <img src="./images/menu.svg" alt="menu" id="menu-icon">
+                        <img src="./images/close 1.svg" alt="close" id="close-icon" style="display: none;">
                         <span class="catalog__list-text">
                             Каталог
                         </span>
@@ -92,7 +93,73 @@
                     </ul>
                 </div>
             </nav>
+            <div class="catalog__menu" style="display: none;" id="catalogMenu">
+                <ul class="catalog__lists">
+                    <li class="active">
+                        <img src="./images/list 1.svg" alt="">
+                        <span>Все украшения</span>
+                    </li>
+                    <li>Акции</li>
+                    <li>Новинки</li>
+                </ul>
+                <div class="catalog__content">
+                    <h3 class="catalog__content-title">Тип украшения</h3>
+                    <div class="catalog__items">
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                        <div class="catalog_item">
+                            <img src="./images/rsmall.png" alt="">
+                            <span class="catalog_item-text">Кольца</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </header>
+    <main>
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
@@ -104,8 +171,6 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-    </header>
-    <main>
         <section class="specials">
             <div class="container">
                 <div class="special__content">
