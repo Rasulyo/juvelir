@@ -71,3 +71,7 @@ const swiper = new Swiper('.swiper', {
     },
   },
 });
+
+function changeImage(element) {
+  document.getElementById('mainImage').src = element.src;
+}

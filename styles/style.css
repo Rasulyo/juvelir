@@ -597,6 +597,147 @@ footer {
     margin: 20px 0;
 }
 
+.choose__by-category {
+    display: flex;
+    row-gap: 41px;
+    column-gap: 19px;
+    flex-wrap: wrap;
+}
+
+.choose__by-category-item p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.choose__by-category-item img{
+    width: inherit;
+}
+.choose__by-category-item {
+    width: 304px;
+    height: 305px;
+    object-fit: cover;
+}
+
+.chose__content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 41px 0 31px;
+}
+.chose__title {
+    font-size: 24px;
+}
+
+.chose__subtitle {
+    font-size: 14px;
+}
+
+
+/* detail */
+
+.detail__content {
+    display: flex;
+    gap: 50px;
+}
+
+.custom-slider {
+    max-width: 690px;
+    text-align: center;
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 10px;
+}
+.main-image {
+    max-width: 590px;
+    min-width: 590px;
+    width: 100%;
+    min-height: 500px;
+    max-height: 580px;
+    height: auto;
+}
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+}
+.thumbnail {
+    width: 90px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.detail__option {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.articul {
+    font-size: 14px;
+}
+.articul__title {
+    font-size: 24px;
+}
+
+.articul__btn {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #000;
+    color: #ffffff;
+    height: 50px;
+    font-size: 20px;
+    width: 100%;
+    max-width: 460px;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.articul__sizes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sizes__item {
+    width: 80px;
+    height: 54px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.articul__detail-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.articul__desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.product-details {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+.detail span {
+    display: inline-block;
+    font-size: 16px;
+}
+.dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted black;
+    margin: 0 5px;
+}
+
 @media screen and (max-width: 1024px) {
     .nav__right {
         gap: 2vw;
