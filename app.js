@@ -21,6 +21,23 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+  const addCartBtn = document.getElementById('add__cart-btn');
+  const addedPopup = document.getElementById('added');
+  const closeAddedBtn = document.getElementById('close__added');
+  const closeAddedIcon = document.getElementById('close__added-icon');
+
+  addCartBtn.addEventListener('click', () => {
+    console.log('btn clicked open ');
+    addedPopup.style.display = 'flex';
+  });
+
+  closeAddedBtn.addEventListener('click', () => {
+    addedPopup.style.display = 'none';
+  });
+
+  closeAddedIcon.addEventListener('click', () => {
+    addedPopup.style.display = 'none';
+  });
 });
 
 const btn = document.getElementById('catalog');
