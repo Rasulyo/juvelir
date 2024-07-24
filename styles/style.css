@@ -842,7 +842,7 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
-
+    flex-direction: column;
 }
 
 .product-image {
@@ -875,6 +875,7 @@ footer {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .product-name {
