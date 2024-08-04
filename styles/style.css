@@ -240,7 +240,8 @@ nav {
 }
 
 .special__photo {
-    width: 100%;
+    width: auto;
+    height: 400px;
 }
 
 .graffity {
@@ -1206,5 +1207,9 @@ footer {
     }
     .faq-container {
         flex-direction: column;
+    }
+    .special__photo {
+        width: 100%;
+        height: auto;
     }
 }
