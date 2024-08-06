@@ -1010,6 +1010,116 @@ footer {
     align-items: center;
 }
 
+
+/* reg */
+
+.register__page--title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register__page--form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__page--input {
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register__page--button {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register__page--button:hover {
+    background-color: #333;
+}
+
+
+/*  sadsa*/
+
+.pp-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.personal-info {
+    width: 390px;
+    max-height: 217px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info__title img{
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+ }
+.personal-info__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #989797;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.personal-info__content {
+    margin-bottom: 20px;
+}
+
+.personal-info__text {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #989797;
+}
+
+.personal-info__actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info__button {
+    padding: 10px;
+    border: 1px solid #989797;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.personal-info__button:hover {
+    background-color: #f0f0f0;
+}
+
+.p-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 1024px) {
     .nav__right {
         gap: 2vw;
