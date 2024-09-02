@@ -1145,6 +1145,34 @@ footer {
         display: none;
     }
 
+    .nav__right-lang-dropdown {
+        background-color: transparent;
+        border: none;
+        font-family: inherit;
+        font-size: 16px;
+        color: inherit;
+        cursor: pointer;
+        padding: 5px;
+        display: none;
+    }
+    .nav__right-item {
+        list-style: none;
+    }
+    .nav__right-lang-toggle {
+        display: flex;
+        flex-direction: column;
+    }
+    .foot__right-lang-dropdown {
+        background-color: transparent;
+        border: none;
+        font-family: inherit;
+        font-size: 16px;
+        color: inherit;
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+    }
+
     .user__links {
         display: none;
     }

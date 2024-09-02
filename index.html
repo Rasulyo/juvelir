@@ -57,6 +57,12 @@
                                 Контакты
                             </a>
                         </li>
+                        <li class="nav__right-item">
+                            <select class="nav__right-lang-dropdown" onchange="toggleLanguage(this)">
+                                <option value="en">EN</option>
+                                <option value="ru">RU</option>
+                            </select>
+                        </li>
                     </ul>
                 </div>
                 <div class="nav__catalog">
@@ -156,7 +162,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </header>
     <main>
@@ -425,6 +430,13 @@
                         <img class="links__icon" src="./images/shoppingcart.svg" alt="">
                         <span>Cart</span>
                     </a>
+                </li>
+                <li class="nav__right-item">
+                    <button class="nav__right-lang-toggle" onclick="toggleLanguage()">
+                        <span class="lang en active">EN</span>
+                        <span class="divider">|</span>
+                        <span class="lang ru">RU</span>
+                    </button>
                 </li>
             </ul>
         </div>
